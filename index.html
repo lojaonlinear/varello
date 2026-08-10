@@ -14,16 +14,7 @@
   Reemplaza TU_PIXEL_ID por tu ID real y descomenta el bloque.
   Instrucciones: TikTok Ads Manager > Recursos > Eventos > Configurar píxel Web > Instalar manualmente.
 ========================================================================== -->
-<!--
-<script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<e.methods.length;n++)ttq.setAndDefer(e,e.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
-
-  ttq.load('TU_PIXEL_ID');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
--->
+<!-- TikTok Pixel Code Start --><script>!function (w, d, t) {  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for( var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script") ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};   ttq.load('D9QCTIRC77U4UUP3KL80');  ttq.page();}(window, document, 'ttq');</script><!-- TikTok Pixel Code End -->
 <!-- ======================================================================= -->
 
 <style>
@@ -333,10 +324,10 @@
 <script>
 (function(){
   // ============ CONFIGURA AQUÍ ============
-  var URL_PAGINA_VENTAS = "https://tutienda-varello.com/coleccion?cupon=VARELLO50";
+  var URL_PAGINA_VENTAS = "https://tiendavarello.online/collections/mas-vendidos";
   // URL del Google Apps Script que registra las métricas (ver apps-script.gs / README).
   // Déjalo vacío ("") si todavía no lo configuraste — la página funciona igual, solo no se registran métricas.
-  var APPS_SCRIPT_URL = "";
+  var APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzl5KPH9woxDLwG22tRA9yvv3xwttYe0fAwlRyyAgND7I8xaRI5JXpB-ZlXfLgPpkz-/exec";
   // ==========================================
 
   var interacted = false;
